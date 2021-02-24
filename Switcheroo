@@ -1,0 +1,13 @@
+using System;
+using System.Linq;
+
+public class Kata
+{
+  public static string Switcheroo(string x)
+  {
+    var s = x.Select(a=> a == 'a' ? 'b' : (a== 'b' ? 'a' : a)).ToArray();
+    x = new String(s);
+    
+    return x;
+  }
+}
