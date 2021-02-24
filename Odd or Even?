@@ -1,0 +1,23 @@
+public class Kata
+{
+  public static string OddOrEven(int[] array)
+  {
+      int sum = 0;
+      for (int i = 0; i < array.Length; i++)
+        {
+          sum += array[i];
+        }
+            
+      int dvd = sum%2;
+    
+      if (dvd == 0)
+      {
+        return "even";
+      }
+    
+      else 
+      {
+        return "odd";
+      }
+  }
+}
