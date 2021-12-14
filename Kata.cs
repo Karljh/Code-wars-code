@@ -24,7 +24,7 @@ namespace NUnitTestProject1
                 }
             }
 
-            if(oddList.Count > 1)
+            if(oddList.Count  1)
             {
                 return evenList[0];
             }
